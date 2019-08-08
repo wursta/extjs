@@ -2,7 +2,7 @@ Ext.define('Fiddle.overrides.grid.RowEditor', {
     override: 'Ext.grid.RowEditor',
 
     onFieldTab: function(e) {
-        if (Ext.getVersion().isLessThanOrEqual('6.2.0')) {
+        if (Ext.getVersion().isLessThan('6.2.1')) {
             var me = this,
                 activeField = me.activeField,
                 forwards = !e.shiftKey,
