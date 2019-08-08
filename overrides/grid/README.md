@@ -5,7 +5,7 @@ BugFix for text wrapping in grid column header
 ## Example
 https://fiddle.sencha.com/#view/editor&fiddle/2ub6
 
-# RowEditor (ExtJS <= 6.2.0)
+# RowEditor
 ## Description
 BugFix when clicking a TAB and grid header does not scoll with roweditor panel.
 
