@@ -1,4 +1,5 @@
-# Usage
+# Label tooltip
+## Usage
 
 ```javascript
 {
@@ -12,5 +13,5 @@
 }
 ```
 
-# Example
+## Example
 https://fiddle.sencha.com/#view/editor&fiddle/2tib
