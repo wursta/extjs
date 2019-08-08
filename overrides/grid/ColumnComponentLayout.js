@@ -1,5 +1,6 @@
 Ext.define('Fiddle.overrides.grid.ColumnComponentLayout', {
     override: 'Ext.grid.ColumnComponentLayout',
+
     publishInnerHeight: function (ownerContext, outerHeight) {
         var owner = this.owner,
             titleEl = owner.titleEl;
